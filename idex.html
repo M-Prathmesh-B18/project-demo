@@ -8,16 +8,24 @@
 
 </head>
 <body>
-       <div class="fullpage">
+   <div class="fullpage"> 
+       <div class="pagebox">
               <div class="login">
-                     <h3 class="pagename">Login</h3>
-                     <input type="text" placeholder="Owner Name"  id="ownername " name="info">
-                     <input type=" password" placeholder="Password"  id="ownerpassword" name="info">
-              </div>
+                     <h3 class="logintext">Login</h3>
+                     <div class="registration-id"> 
+                            <div class="labelreg"> <label for="registerid">Register id</label> </div>
+                            <div class="inputnum"> <input type="number" placeholder="Register id"  id="registerid" name="info"> </div>
+                     </div>
+                     <div class="registration-passwsord"> 
+                            <div class="labelpass"> <label for="registerpassword">Password</label></div>
+                            <div class="inputpass"> <input type=" password" placeholder="Password"  id="registerpassword" name="info"></div>
+                     </div>
+              </div> 
               <!-- <div class="sign"></div> -->
               <div class="submit">
-                     <input type="submit" placeholder="Login" id="submitinfo" name="submit">
+                      <button class="loginbtn" id="submitinfo" name="submit" placeholder="Login">Login</button>
               </div>
        </div>
+  </div>
 </body>
 </html>

@@ -1,8 +1,16 @@
+body{
+       height: 100%;
+       background-color: blue;
+       background-image: url("cold.jpg");
+       background-size: cover;
+       
+}
 .fullpage{
        display: flex;
        padding: auto;
        margin-top: 70px;
        justify-content: center;
+       position:relative;
         
 }
 .pagebox{
@@ -11,7 +19,7 @@
        /* justify-content: center; */
        width: 300px;
        height: 300px;
-       border: 2px solid black;
+       border: 0.2px solid black;
        border-radius: 15px;
        box-shadow: 20px 20px 50px 10px  rgb(77, 157, 203) inset;
        /* background-color: red; */
@@ -28,6 +36,7 @@
        text-align: center;
        font-size: xx-large;
        font-weight: bold;
+       
 }
 .registration-id{
        display: flex;
@@ -35,6 +44,7 @@
        align-items: center;
        /* padding-top: -30px; */
        margin-top: -5px;
+       color: crimson;
 
 }
 .registration-passwsord{
@@ -42,6 +52,7 @@
        flex-direction: column;
        align-items: center;
        margin-top: 20px;
+       color: crimson;
 }
 .labelreg  {margin-left: -95px;}
 .inputnum  {margin-top: 3px;}
@@ -53,5 +64,41 @@
        padding-top: 15px;
        display: flex;
        justify-content: center;
-
  }
+.loginbtn{
+       font-weight: 900px;
+       color:  black;
+       border: 2px solid black;
+       border-radius: 4px;
+       background-color:  #276897;
+       /* transition:background-color 2s; */
+}
+ 
+.loginbtn:active{
+       color :black;
+       background-color:rgb(48, 226, 48);
+}
+/* .loginbtn:hover{
+       color :black;
+       background-color:rgb(205, 221, 205);
+} */
+
+input[type=number]{
+       width: 100%;
+       height: 100%;
+       box-shadow: none;
+       border: 0px solid black;
+       border-radius: 6px;
+       /* background-color:rgb(11, 22, 78); */
+       opacity:none;
+}
+
+input[type=password]{
+       width: 100%;
+       height: 100%;
+       box-shadow: none;
+       border: 0px solid black;
+       border-radius: 6px;
+       /* background-color:rgb(11, 22, 78); */
+       opacity:none;
+}
